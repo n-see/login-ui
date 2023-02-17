@@ -14,6 +14,8 @@
     z-index: 0;
 }
 .login {
+    background-image: url(pexels-harrison-haines-5922522.jpg);
+    background-size: 360px 650px;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -22,7 +24,7 @@
     min-width: 350px;
     min-height: 350px;
     border-radius: 10px;
-    box-shadow: -8px 12px 14px -4px rgb(247, 147, 7);
+    box-shadow: -8px 12px 14px -4px rgb(206, 203, 200);
     z-index: 1;
 }
 #login-button, #username, #password{
