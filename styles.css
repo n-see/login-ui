@@ -1,16 +1,15 @@
 .container {
-       /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000px;
+    height: 100vh;
 }
 #bgvid {
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%vw;
-    min-height: 100%vh;
+    min-width: 100vw;
+    min-height: 100vh;
     z-index: 0;
 }
 .login {
@@ -20,7 +19,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blueviolet;
     min-width: 350px;
     min-height: 350px;
     border-radius: 10px;
